@@ -212,6 +212,51 @@ body {
   right: 0;
 }
 
-.about {
+.about, .education {
   padding-bottom: 35px;
+}
+
+.education__item-title {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  color: #90A5FE;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 20px;
+}
+
+.education__item-title::after {
+  content: '';
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #90A5FE;
+  position: absolute;
+  left: 0;
+  top: 6px;
+}
+
+.education__item-info {
+  display: flex;
+  padding-left: 35px;
+}
+
+.education__item-date {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #90A5FE;
+  width: 40%;
+  position: relative;
+}
+
+.education__item-date::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background-color: #90A5FE;
+  top: 0;
+  right: 20px;
 }
