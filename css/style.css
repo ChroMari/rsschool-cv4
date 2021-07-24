@@ -134,3 +134,37 @@ body {
   left: 0;
   top: 25%;
 }
+
+.skill {
+  padding-bottom: 35px;
+}
+
+.skill-menu__item {
+  padding-left: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill-menu__item + .skill-menu__item  {
+  margin-top: 25px;
+}
+
+.skill-menu__item-text {
+  display: block;
+}
+
+.progressbar { 
+	height: 10px;
+	position: relative;
+	background: rgba(144, 165, 254, 0.5);
+  width: 65%;
+  display: block;
+}
+.progressbar > span {
+  display: block;
+  height: 100%;
+  background-color: #90A5FE;
+  position: relative;
+  overflow: hidden;
+}
