@@ -212,11 +212,11 @@ body {
   right: 0;
 }
 
-.about, .education {
+.about, .education, .work {
   padding-bottom: 35px;
 }
 
-.education__item-title {
+.education__item-title, .work__item-title {
   font-weight: bold;
   font-size: 25px;
   line-height: 29px;
@@ -259,4 +259,24 @@ body {
   background-color: #90A5FE;
   top: 0;
   right: 20px;
+}
+
+.work__item + .work__item {
+  margin-top: 30px;
+}
+
+.work__item-link {
+  color: #FFFFFF;
+  padding: 8px 50px;
+  background-color: #E890FE;
+  text-decoration: none;
+  height: 35px;
+}
+
+.work__item-link:hover {
+  background-color: #d583e9;
+}
+
+.work__item-text {
+  padding-left: 55px;
 }
