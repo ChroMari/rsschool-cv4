@@ -280,3 +280,14 @@ body {
 .work__item-text {
   padding-left: 55px;
 }
+
+.footer {
+  padding: 30px 40px;
+  display: flex;
+  background-color: #90A5FE;
+  justify-content: space-between;
+}
+
+.img-rs {
+  height: 25px;
+}
