@@ -73,6 +73,17 @@ body {
 .left {
   width: 305px;
   margin-right: 40px;
+  position: relative;
+}
+
+.left::before {
+  content: '';
+  width: 3px;
+  height: 100%;
+  background-color: #90A5FE;
+  position: absolute;
+  right: -43px;
+  top: 0;
 }
 
 .left-title {
@@ -80,7 +91,6 @@ body {
   font-size: 25px;
   line-height: 29px;
   color: #FFFFFF;
-  /*padding: 5px 40px;*/
   background-color: #E890FE;
   text-transform: uppercase;
   padding-top: 5px;
@@ -168,3 +178,4 @@ body {
   position: relative;
   overflow: hidden;
 }
+
